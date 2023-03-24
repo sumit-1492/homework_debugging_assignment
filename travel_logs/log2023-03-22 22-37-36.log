@@ -1,0 +1,31 @@
+[2023-03-22 22:37:38,214] root - INFO - Training pipleine config: TrainingPipelineConfig(artifact_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact')
+[2023-03-22 22:37:38,230] root - INFO - Training pipleine config: TrainingPipelineConfig(artifact_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact')
+[2023-03-22 22:37:38,230] root - INFO - Data Ingestion config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/Shivan118/Main-Branching/main/TourismData.csv', tgz_download_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact\\data_ingestion\\2023-03-22-22-37-36\\tgz_data', raw_data_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact\\data_ingestion\\2023-03-22-22-37-36\\raw_data', ingested_train_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact\\data_ingestion\\2023-03-22-22-37-36\\ingested_data\\train', ingested_test_dir='E:\\live_project_class\\home work\\debug_app\\config_data_ingestion\\traveling\\artifact\\data_ingestion\\2023-03-22-22-37-36\\ingested_data\\test')
+[2023-03-22 22:37:38,230] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-03-22 22:37:38,230] root - INFO - Downloading file from :[https://raw.githubusercontent.com/Shivan118/Main-Branching/main/TourismData.csv] into :[E:\live_project_class\home work\debug_app\config_data_ingestion\traveling\artifact\data_ingestion\2023-03-22-22-37-36\tgz_data\TourismData.csv]
+[2023-03-22 22:37:40,499] root - INFO - File :[E:\live_project_class\home work\debug_app\config_data_ingestion\traveling\artifact\data_ingestion\2023-03-22-22-37-36\tgz_data\TourismData.csv] has been downloaded successfully.
+[2023-03-22 22:37:40,499] root - INFO - Extracting tgz file: [E:\live_project_class\home work\debug_app\config_data_ingestion\traveling\artifact\data_ingestion\2023-03-22-22-37-36\tgz_data\TourismData.csv] into dir: [E:\live_project_class\home work\debug_app\config_data_ingestion\traveling\artifact\data_ingestion\2023-03-22-22-37-36\raw_data]
+[2023-03-22 22:37:40,515] root - INFO - Extraction completed
+[2023-03-22 22:37:40,515] root - INFO - Reading csv file: [E:\live_project_class\home work\debug_app\config_data_ingestion\traveling\artifact\data_ingestion\2023-03-22-22-37-36\raw_data\TourismData.csv]
+[2023-03-22 22:37:40,655] root - INFO - Splitting data into train and test
+[2023-03-22 22:37:40,671] root - ERROR - 
+        Error occured in script: 
+        [ E:\live_project_class\home work\debug_app\config_data_ingestion\travelling\pipeline\pipeline.py ] at 
+        try block line number: [36] and exception block line number: [39] 
+        error message: [
+        Error occured in script: 
+        [ E:\live_project_class\home work\debug_app\config_data_ingestion\travelling\pipeline\pipeline.py ] at 
+        try block line number: [27] and exception block line number: [29] 
+        error message: [
+        Error occured in script: 
+        [ E:\live_project_class\home work\debug_app\config_data_ingestion\travelling\components\data_ingestion.py ] at 
+        try block line number: [122] and exception block line number: [124] 
+        error message: [
+        Error occured in script: 
+        [ E:\live_project_class\home work\debug_app\config_data_ingestion\travelling\components\data_ingestion.py ] at 
+        try block line number: [86] and exception block line number: [116] 
+        error message: ['default.payment.next.month']
+        ]
+        ]
+        ]
+        
